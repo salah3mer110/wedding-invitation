@@ -231,7 +231,7 @@ const CONFIG = {
     btn.addEventListener("click", () => {
       document
         .getElementById(btn.dataset.next)
-        .scrollIntoView({ behavior: "smooth" });
+        .scrollIntoView(); // smoothness comes from CSS scroll-behavior (off for reduced motion)
     });
   });
 

@@ -27,7 +27,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -70,7 +69,6 @@ body {
   justify-content: center;
   gap: 1rem;
   padding: 4.5rem 1.5rem 5.5rem;
-  scroll-snap-align: start;
 }
 
 /* thin gold frame */
