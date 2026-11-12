@@ -23,7 +23,7 @@ const CONFIG = {
   venue: {
     name: { en: "Al Baron" },
     address: {}, // optional: e.g. { en: "Street, City" }; leave empty to hide the line
-    mapsUrl: "https://maps.apple/p/iqgUH.cDJpW4gd",
+    mapsUrl: "https://maps.app.goo.gl/jQPQ1r1AGdH3ixEa6?g_st=aw",
   },
 
   // Monogram at the top of the page. Leave `image` empty to hide it.
