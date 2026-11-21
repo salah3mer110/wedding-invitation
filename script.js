@@ -321,8 +321,10 @@ const CONFIG = {
       }
     }
 
+    let timer;
     tick();
-    const timer = setInterval(tick, 1000);
+    if (!$("#countdownDone").hidden) return; // already over: nothing to keep ticking
+    timer = setInterval(tick, 1000);
   })();
 
   /* ---------- music ---------- */
