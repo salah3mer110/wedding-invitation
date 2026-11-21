@@ -50,7 +50,7 @@ const CONFIG = {
   },
 
   music: {
-    src: "assetss/music.mp3",
+    src: "assets/music.mp3",
     volume: 0.6, // 0 to 1
     startOnOpen: true, // start the music when the card is tapped open
   },
