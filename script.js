@@ -23,7 +23,7 @@ const CONFIG = {
   venue: {
     name: { en: "Al Baron" },
     address: {}, // optional: e.g. { en: "Street, City" }; leave empty to hide the line
-    mapsUrl: "https://maps.apple/p/iqgUH.cDJpW4gd",
+    mapsUrl: "https://maps.app.goo.gl/jQPQ1r1AGdH3ixEa6?g_st=aw",
   },
 
   // Monogram at the top of the page. Leave `image` empty to hide it.
@@ -50,7 +50,7 @@ const CONFIG = {
   },
 
   music: {
-    src: "assets/music.mp3",
+    src: "assetss/music.mp3",
     volume: 0.6, // 0 to 1
     startOnOpen: true, // start the music when the card is tapped open
   },
